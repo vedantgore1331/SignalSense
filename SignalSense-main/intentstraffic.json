@@ -1,0 +1,125 @@
+{
+    "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                            "Hi",
+                            "How are you",
+                            "Is anyone there?",
+                            "Hello",
+                            "Good day"
+                    ],
+                    "responses": [
+                            "Hello, thanks for visiting",
+                            "Good to see you again",
+                            "Hi there, how can I help?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "goodbye",
+                    "patterns": [
+                            "Bye",
+                            "See you later",
+                            "Goodbye"
+                    ],
+                    "responses": [
+                            "See you later, thanks for visiting",
+                            "Have a nice day",
+                            "Bye! Come back again soon."
+                    ]
+            },
+            {
+                    "tag": "thanks",
+                    "patterns": [
+                            "Thanks",
+                            "Thank you",
+                            "That's helpful"
+                    ],
+                    "responses": [
+                            "Happy to help!",
+                            "Any time!",
+                            "My pleasure"
+                    ]
+            },
+            {
+                    "tag": "chatbot",
+                    "patterns": [
+                            "Who built this chatbot?",
+                            "Tell me about Chatbot",
+                            "What is this chatbot name?"
+                    ],
+                    "responses": [
+                            "Hi, I am Chatbot designed by Dhruv.",
+                            "Thanks for asking. I am designed by Dhruv Bharuka.",
+                            "I am a chatbot."
+                    ]
+            },
+            {
+                    "tag": "location",
+                    "patterns": [
+                            "What is your location?",
+                            "Where are you located?",
+                            "What is your address?"
+                    ],
+                    "responses": [
+                            "We are from World's largest Democracy India.",
+                            "You can visit India to meet us",
+                            "Thans for your Interest. I live in India."
+                    ]
+            },
+            
+            {
+                    "tag": "about",
+                    "patterns": [
+                            "Who are you?",
+                            "Tell me about Yourself",
+                            "What is this?"
+                    ],
+                    "responses": [
+                            "Hi, I am NOVA. Nice to meet you. I have been developed to help and guide you regarding road safety and traffic rules."
+                            
+                    ]
+            },
+            {
+                    "tag": "penalty",
+                    "patterns": [
+                        "Are there any penalties for exceeding the speed limit?",
+                        "What are the consequences of not following the speed limit?",
+                        "would there be any fine if i broke a rule:"
+                        
+                    ],
+                    "responses": [
+                            "For light motor vehicles the penalty fine is rupees 1000, whereas for heavy motors it ranges between 2k-4k for the first offence,"
+                    ]
+            },
+            {
+                    "tag": "applicability",
+                    "patterns": [
+                        "Does the speed limit apply to all vehicles, including bicycles and pedestrians?"
+                        
+                    ],
+                    "responses": [
+                        "The speed limit typically applies to motorized vehicles like cars, motorcycles, trucks, etc. Pedestrians and cyclists are generally not subject to the same speed limits as motorized vehicles, as they have their own rules and regulations when it comes to sharing the road."
+                    ]
+            },
+            { "tag": "applicability",
+                "patterns": [
+                    "Why is the speed limit set specifically to 20 km/h in this area?",
+                    "Is there any reason to specify speed limit of 40km/h"
+                    
+                ],
+                "responses": [
+                        "Pedestrian Safety: The area might have high pedestrian traffic, such as near schools, playgrounds, residential neighborhoods, or shopping districts. A lower speed limit helps reduce the risk of accidents and provides more reaction time for drivers to respond to pedestrians crossing the road.",
+                        "Narrow Roads: Narrow roads or streets with limited visibility can make it challenging for vehicles to navigate safely at higher speeds. Lowering the speed limit helps prevent collisions and enhances overall road safety.",
+                        "Congested Areas: In areas with heavy traffic congestion, a lower speed limit can help manage traffic flow and reduce the likelihood of accidents caused by sudden stops or unexpected obstacles.",
+                        "Sensitive Ecosystems: In areas close to wildlife habitats, parks, or conservation zones, lower speed limits help protect local wildlife and the environment."
+                    
+
+                   
+                ]
+        }
+            
+           
+    ]
+}
